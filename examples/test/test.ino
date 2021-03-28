@@ -1,20 +1,3 @@
-# Sensirion SCD30 Modbus
-
-[![License](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/Robertndrei/SCD30-Modbus/blob/main/README.md)
-
-Arduino library for Sensirion SCD30 sensor via UART Modbus
-
-
-
-## Getting Started
-
-I was working in a project where I2C protocol was not an option, so I developed this library to communicate via UART and modbus protocol. This library is based on [Adafruit SCD30 library](https://github.com/adafruit/Adafruit_SCD30) so all method and variable names are basically the same.
-
-
-
-## Basic example
-
-```c
 // Basic demo
 #include <scd30_modbus.h>
 
@@ -123,16 +106,3 @@ void loop() {
 
    delay(2000);
 }
-```
-
-
-
-## Author
-
-* **Robert Cojocaru** - [GitHub - Robertndrei](https://github.com/Robertndrei)
-
-
-
-## License
-
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
